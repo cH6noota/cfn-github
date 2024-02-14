@@ -1,0 +1,4 @@
+template-file-path: sample-iam.yaml
+parameters:
+  userName: test-main
+tags: {}
