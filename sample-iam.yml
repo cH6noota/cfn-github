@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Sample
+
+Parameters:
+  userName:
+    Type: String
+    Description: iam name
+
+
+Resources:
+  S3BackupUser:
+    Type: "AWS::IAM::User"
+    Properties:
+      UserName: !Ref userName
+
